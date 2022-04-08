@@ -21,7 +21,7 @@ let MaterialCommunityIcons: React.ComponentType<
 try {
   // Optionally require vector-icons
   MaterialCommunityIcons =
-    require('react-native-vector-icons/MaterialCommunityIcons').default;
+    require('@expo/vector-icons/MaterialCommunityIcons').default;
 } catch (e) {
   let isErrorLogged = false;
 
