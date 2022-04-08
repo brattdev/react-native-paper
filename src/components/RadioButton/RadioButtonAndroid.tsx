@@ -197,6 +197,7 @@ RadioButtonAndroid.displayName = 'RadioButton.Android';
 const styles = StyleSheet.create({
   container: {
     borderRadius: 18,
+    paddingTop: 3
   },
   radioContainer: {
     alignItems: 'center',
