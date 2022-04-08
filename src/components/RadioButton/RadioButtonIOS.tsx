@@ -117,7 +117,7 @@ const RadioButtonIOS = ({
               <MaterialCommunityIcon
                 allowFontScaling={false}
                 name="check"
-                size={24}
+                size={30}
                 color={checkedColor}
                 direction="ltr"
               />
@@ -133,7 +133,9 @@ RadioButtonIOS.displayName = 'RadioButton.IOS';
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 18,
+    borderColor: "black",
+    borderWidth: 1,
+    borderRadius: 25,
     padding: 6,
   },
 });
